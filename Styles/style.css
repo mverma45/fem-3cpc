@@ -7,15 +7,46 @@ body {
 	margin: 0;
 	padding-top: 2em;
 	font-family: 'Hanken Grotesk', sans-serif;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .cars {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	min-width: 300vh;
 	justify-content: center;
 	border-radius: 20px;
+}
+
+.carsSedan {
+	background: hsl(31, 77%, 52%);
+}
+
+.carsSUV {
+	background-color: hsl(184, 100%, 22%);
+}
+
+.carsLuxury {
+	background-color: hsl(179, 100%, 13%);
+}
+
+.carsSedanPara,
+.carsSUVPara,
+.carsLuxuryPara {
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.carsSedanTitle,
+.carsSUVTitle,
+.carsLuxuryTitle {
+	color: hsl(0, 0%, 95%);
+}
+
+.carsSedan,
+.carsSUV,
+.carsLuxury {
+	/* top | right | bottom | left */
+	padding: 2em 2em 2em 2em;
 }
 
 .attribution {
