@@ -58,6 +58,24 @@ body {
 	/* top | right | bottom | left */
 	padding: 1em 2.2em 1em 2.2em;
 }
+
+@media (max-width: 500px) {
+	.cars {
+		display: flex;
+		flex-direction: column;
+		min-width: 200px;
+	}
+	.carsSedan {
+		border-top-left-radius: 0.5em;
+		border-top-right-radius: 0.5em;
+	}
+
+	.carsLuxury {
+		border-bottom-left-radius: 0.5em;
+		border-bottom-right-radius: 0.5em;
+	}
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
