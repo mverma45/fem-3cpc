@@ -63,14 +63,16 @@ body {
 	.cars {
 		display: flex;
 		flex-direction: column;
-		min-width: 200px;
+		min-width: 100px;
 	}
 	.carsSedan {
+		border-radius: 0;
 		border-top-left-radius: 0.5em;
 		border-top-right-radius: 0.5em;
 	}
 
 	.carsLuxury {
+		border-radius: 0;
 		border-bottom-left-radius: 0.5em;
 		border-bottom-right-radius: 0.5em;
 	}
