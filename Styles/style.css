@@ -3,7 +3,7 @@
 body {
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 10em;
 	margin: 0;
 	padding-top: 2em;
 	font-family: 'Hanken Grotesk', sans-serif;
@@ -13,7 +13,7 @@ body {
 .cars {
 	display: flex;
 	flex-direction: row;
-	min-width: 220vh;
+	min-width: 22em;
 	/* top | right | bottom | left */
 	margin: 0.01em 4em 2em 4em;
 }
@@ -55,14 +55,17 @@ body {
 
 .btnSedan {
 	color: hsl(31, 77%, 52%);
+	border: none;
 }
 
 .btnSUV {
 	color: hsl(184, 100%, 22%);
+	border: none;
 }
 
 .btnLuxury {
 	color: hsl(179, 100%, 13%);
+	border: none;
 }
 
 .btnSedan,
@@ -73,12 +76,12 @@ body {
 	padding: 1em 2.2em 1em 2.2em;
 }
 
-@media (max-width: 200vh) {
+@media (max-width: 50rem) {
 	.cars {
 		display: flex;
 		flex-direction: column;
 		padding-right: 5em;
-		min-width: 100vh;
+		min-width: 30em;
 	}
 	.carsSedan {
 		border-radius: 0;
