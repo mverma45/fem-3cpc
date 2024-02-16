@@ -7,7 +7,7 @@ body {
 	margin: 0;
 	padding-top: 2em;
 	font-family: 'Hanken Grotesk', sans-serif;
-	font-size: 15px;
+	font-size: 1em;
 }
 
 .cars {
@@ -97,7 +97,7 @@ body {
 }
 
 .attribution {
-	font-size: 11px;
+	font-size: 0.75em;
 	text-align: center;
 }
 .attribution a {
