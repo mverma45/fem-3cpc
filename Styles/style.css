@@ -46,6 +46,11 @@ body {
 	color: hsl(0, 0%, 95%);
 }
 
+.carsSUVTitle,
+.carsLuxuryTitle {
+	font-size: 2em;
+	font-weight: bolder;
+}
 .carsSedan,
 .carsSUV,
 .carsLuxury {
